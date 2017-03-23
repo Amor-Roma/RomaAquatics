@@ -82,8 +82,3 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: romaaquatics_production
-  username: roma
-  password: <%= ENV['ROMAAQUATICS_DATABASE_PASSWORD'] %>
