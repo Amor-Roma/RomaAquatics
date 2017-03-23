@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+# Heroku should be using this version of Ruby
+ruby '2.3.1'
+# 12factor for Heroku
+gem 'rails_12factor', group: :production
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
